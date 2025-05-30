@@ -4,7 +4,7 @@ import dbData from './data/db.json';
 
 // Styled Components
 const Container = styled.div`
-  min-height: 100vh;
+  min-height: 100svh;
   padding: 20px;
   background-color: #111827;
   color: #ffffff;

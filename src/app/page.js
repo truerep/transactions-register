@@ -7,7 +7,7 @@ import './globals.css';
 const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100svh;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
@@ -184,7 +184,7 @@ const LoaderContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 100svh;
   gap: 1rem;
   background-color: #111827;
 `;
@@ -215,7 +215,7 @@ const ErrorContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 100svh;
   gap: 1rem;
   padding: 2rem;
   text-align: center;
