@@ -1,7 +1,7 @@
 {
-  "name": "Balance",
-  "short_name": "Balance",
-  "description": "Track your credits and debits with ease",
+  "name": "Transactions",
+  "short_name": "Transactions",
+  "description": "Track your credits and debits",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#111827",
