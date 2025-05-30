@@ -1,6 +1,6 @@
 {
-  "name": "Transactions Register",
-  "short_name": "Transactions",
+  "name": "Balance",
+  "short_name": "Balance",
   "description": "Track your credits and debits with ease",
   "start_url": "/",
   "display": "standalone",

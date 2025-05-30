@@ -453,7 +453,7 @@ export default function Home() {
     <PageContainer>
       <Container>
         <Header>
-          <h2>Transactions Register</h2>
+          <h2>Balance</h2>
           <Balance amount={balance}>
             ₹{balance.toFixed(2)}
           </Balance>
@@ -461,7 +461,7 @@ export default function Home() {
 
         <ScrollableContainer>
           <TransactionList>
-            {transactions.map(transaction => (
+            {[...transactions].reverse().map(transaction => (
               <Transaction key={transaction._id}>
                 <TransactionInfo>
                   <Description>{transaction.description}</Description>

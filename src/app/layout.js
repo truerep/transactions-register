@@ -4,7 +4,7 @@ import StyledComponentsRegistry from './registry'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Transactions Register',
+  title: 'Balance',
   description: 'Track your credits and debits with ease',
   manifest: '/manifest.json',
   themeColor: '#111827',
@@ -12,7 +12,7 @@ export const metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Transactions Register'
+    title: 'Balance'
   },
   icons: {
     apple: '/icon-192x192.png'

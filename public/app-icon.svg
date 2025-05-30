@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#10B981"/>
+  
+  <!-- Inner Circle with Gradient -->
+  <circle cx="256" cy="256" r="220" fill="url(#gradient)"/>
+  
+  <!-- Rupee Symbol -->
+  <path d="M316 176H196C196 176 256 176 256 236M316 176H336M316 176V196M256 236C256 296 196 296 196 296H316M256 236V296M196 176V296" 
+        stroke="white" 
+        stroke-width="24" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Up and Down Arrows -->
+  <path d="M196 146L226 116M226 116L256 146M226 116V176" 
+        stroke="white" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <path d="M316 346L286 376M286 376L256 346M286 376V316" 
+        stroke="white" 
+        stroke-width="16" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="256" y1="36" x2="256" y2="476" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#059669"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+</svg> 
